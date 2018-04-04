@@ -13,6 +13,7 @@
 		3D8232682074AC8F00793B04 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D8232672074AC8F00793B04 /* Assets.xcassets */; };
 		3D82326B2074AC8F00793B04 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D8232692074AC8F00793B04 /* LaunchScreen.storyboard */; };
 		3D82326E2074AC8F00793B04 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D82326D2074AC8F00793B04 /* main.m */; };
+		3D82327A2074B2D100793B04 /* QuicklyCreateModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D8232792074B2D100793B04 /* QuicklyCreateModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		3D82326A2074AC8F00793B04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3D82326C2074AC8F00793B04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3D82326D2074AC8F00793B04 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3D8232782074B2D100793B04 /* QuicklyCreateModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuicklyCreateModel.h; sourceTree = "<group>"; };
+		3D8232792074B2D100793B04 /* QuicklyCreateModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuicklyCreateModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,7 @@
 		3D82325D2074AC8F00793B04 /* QuicklyCreateModel */ = {
 			isa = PBXGroup;
 			children = (
+				3D8232772074B2D100793B04 /* ModelTool */,
 				3D82325E2074AC8F00793B04 /* AppDelegate.h */,
 				3D82325F2074AC8F00793B04 /* AppDelegate.m */,
 				3D8232612074AC8F00793B04 /* ViewController.h */,
@@ -69,6 +73,15 @@
 				3D82326D2074AC8F00793B04 /* main.m */,
 			);
 			path = QuicklyCreateModel;
+			sourceTree = "<group>";
+		};
+		3D8232772074B2D100793B04 /* ModelTool */ = {
+			isa = PBXGroup;
+			children = (
+				3D8232782074B2D100793B04 /* QuicklyCreateModel.h */,
+				3D8232792074B2D100793B04 /* QuicklyCreateModel.m */,
+			);
+			path = ModelTool;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -144,6 +157,7 @@
 			files = (
 				3D8232632074AC8F00793B04 /* ViewController.m in Sources */,
 				3D82326E2074AC8F00793B04 /* main.m in Sources */,
+				3D82327A2074B2D100793B04 /* QuicklyCreateModel.m in Sources */,
 				3D8232602074AC8F00793B04 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -280,6 +294,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = QuicklyCreateModel/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.goodLuck.QuicklyCreateModel;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -293,6 +308,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = QuicklyCreateModel/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.goodLuck.QuicklyCreateModel;
 				PRODUCT_NAME = "$(TARGET_NAME)";
